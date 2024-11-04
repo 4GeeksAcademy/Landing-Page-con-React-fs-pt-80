@@ -2,12 +2,12 @@ import React from "react";
 
 const Jumbotron = () => {
 	return (
-		<div className="container"> {/* Contenedor para igualar ancho */}
+		<div className="container">
 			<div className="jumbotron" style={{ 
-				backgroundColor: "#f8f9fa", // Gris claro
-				padding: "2rem 3rem",       // Espacio interior
-				margin: "2rem 0",           // Margen vertical
-				borderRadius: "0.5rem"      // Bordes redondeados (opcional)
+				backgroundColor: "#f8f9fa", 
+				padding: "2rem 3rem",       
+				margin: "2rem 0",           
+				borderRadius: "0.5rem"      
 			}}>
 				<h1 className="display-4">Welcome to our Landing Page!</h1>
 				<p className="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
